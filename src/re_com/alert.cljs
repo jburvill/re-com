@@ -112,6 +112,6 @@
                                                            :heading    heading
                                                            :body       body
                                                            :padding    padding
-                                                           :max-width  "200px"
+                                                           :style {:max-width "200px" :min-width "200px"} 
                                                            :closeable? closeable?
                                                            :on-close   on-close]))]]]]]))
